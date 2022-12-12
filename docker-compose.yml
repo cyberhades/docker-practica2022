@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    image: docker-practica2022
+    # Añadir el resto de la configuración
+
+  redis:
+    image: "redis"
+    networks:
+      - backend
+
+networks:
+  backend:
+
