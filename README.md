@@ -35,6 +35,6 @@ A veces cuando se hacen cambios, éstos no se ven reflejados por el uso de la ca
 
 Y a la hora de levantar nuestros servicios, se puede añadir la opción `--build`:
 
-    docker-composa up --build
+    docker-compose up --build
 
 Aunque en nuestro caso, esta opción no debería hacernos falta, ya que no se deben hacer cambios en el fichero  `app.py` o `requirements.txt`.
